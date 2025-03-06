@@ -17,18 +17,12 @@
 
 ## 🚀 Technologies and Tools
 
-<div>
-
-[![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
-[![Android Studio](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev)
-[![SQLite](https://skillicons.dev/icons?i=sqlite)](https://skillicons.dev)
-[![Figma](https://skillicons.dev/icons?i=figma)](https://skillicons.dev)
-[![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://skillicons.dev)
-
-</div>
-
-
+- ![Java](https://skillicons.dev/icons?i=java) **Java**
+- ![Android Studio](https://skillicons.dev/icons?i=androidstudio) **Android Studio IDE**
+- ![SQLite](https://skillicons.dev/icons?i=sqlite) **SQLite Database**
+- ![Figma](https://skillicons.dev/icons?i=figma) **Figma**
+- ![Git](https://skillicons.dev/icons?i=git) **Git**
+- ![GitHub](https://skillicons.dev/icons?i=github) **GitHub**
 
 
 ## Overview
