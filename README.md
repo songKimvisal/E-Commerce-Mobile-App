@@ -28,10 +28,6 @@
 
 </div>
 
-
-
-
-
 ## Overview
 This is an Android application built in Java using Android Studio, designed as an ecommerce platform for buying and selling products. It’s a collaborative project hosted on GitHub for team development.
 
