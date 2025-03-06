@@ -1,9 +1,19 @@
 # Ecommerce Mobile App Project
 
-# PROGRESS
-- Make Login
-- Testing from computer
-- Hello 
+## 🛒 Functionality
+
+- **Customer Features**
+  - [ ] Register a new account
+  - [ ] Login into the system
+  - [ ] Browse through the list of items
+  - [ ] Buy items
+  - [ ] Generate an invoice of items
+
+- **Administrator Features**
+  - [ ] Create a product
+  - [ ] Modify a product
+  - [ ] View products
+  - [ ] Delete a product
 
 ## Overview
 This is an Android application built in Java using Android Studio, designed as an ecommerce platform for buying and selling products. It’s a collaborative project hosted on GitHub for team development.
