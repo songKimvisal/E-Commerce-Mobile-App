@@ -18,7 +18,7 @@
 ## 🚀 Technologies and Tools
 
 - 🖥️ **Programming Language:**
-  - ![Java]([![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)) Java
+  - [![My Skills]https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev) Java
 
 - 🛠️ **Development Environment:**
   - ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white) Android Studio IDE
