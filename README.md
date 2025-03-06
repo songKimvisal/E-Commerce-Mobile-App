@@ -18,7 +18,7 @@
 ## 🚀 Technologies and Tools
 
 - 🖥️ **Programming Language:**
-  - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
 
 - 🛠️ **Development Environment:**
   - ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white) Android Studio IDE
