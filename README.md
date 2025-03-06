@@ -15,6 +15,24 @@
   - [ ] View products
   - [ ] Delete a product
 
+## 🚀 Technologies and Tools
+
+- **Programming Language:**
+  - Java
+
+- **Development Environment:**
+  - Android Studio IDE
+
+- **Database:**
+  - SQLite
+
+- **Design:**
+  - Figma
+
+- **Version Control:**
+  - Git and GitHub
+
+
 ## Overview
 This is an Android application built in Java using Android Studio, designed as an ecommerce platform for buying and selling products. It’s a collaborative project hosted on GitHub for team development.
 
