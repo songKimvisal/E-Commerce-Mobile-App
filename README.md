@@ -17,20 +17,22 @@
 
 ## 🚀 Technologies and Tools
 
-- **Programming Language:**
-  - Java
+- 🖥️ **Programming Language:**
+  - ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) Java
 
-- **Development Environment:**
-  - Android Studio IDE
+- 🛠️ **Development Environment:**
+  - ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white) Android Studio IDE
 
-- **Database:**
-  - SQLite
+- 🗄️ **Database:**
+  - ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white) SQLite
 
-- **Design:**
-  - Figma
+- 🎨 **Design:**
+  - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) Figma
 
-- **Version Control:**
-  - Git and GitHub
+- 🌱 **Version Control:**
+  - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) Git
+  - ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) GitHub
+
 
 
 ## Overview
