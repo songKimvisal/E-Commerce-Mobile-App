@@ -17,21 +17,17 @@
 
 ## 🚀 Technologies and Tools
 
-- 🖥️ **Programming Language:**
-  [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
+<div>
 
-- 🛠️ **Development Environment:**
-  - ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white) Android Studio IDE
+[![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
+[![Android Studio](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev)
+[![SQLite](https://skillicons.dev/icons?i=sqlite)](https://skillicons.dev)
+[![Figma](https://skillicons.dev/icons?i=figma)](https://skillicons.dev)
+[![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://skillicons.dev)
 
-- 🗄️ **Database:**
-  - ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white) SQLite
+</div>
 
-- 🎨 **Design:**
-  - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) Figma
-
-- 🌱 **Version Control:**
-  - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) Git
-  - ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) GitHub
 
 
 
