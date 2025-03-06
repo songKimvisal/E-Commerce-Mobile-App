@@ -17,7 +17,7 @@
 
 ## 🚀 Technologies and Tools
 
-<div>
+<div style="text-align: center">
 
 [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
 [![Android Studio](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev)
@@ -27,6 +27,7 @@
 [![GitHub](https://skillicons.dev/icons?i=github)](https://skillicons.dev)
 
 </div>
+
 
 
 
