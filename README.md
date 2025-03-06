@@ -1,69 +1,77 @@
-# Ecommerce Mobile App Project
+# 🛒 Ecommerce Mobile App Project
 
-## 🛒 Functionality
+An Android-based e-commerce platform built with Java, designed for seamless buying and selling experiences. This collaborative project is hosted on GitHub and leverages modern tools for development and design.
 
-- **Customer Features**
-  - [ ] Register a new account
-  - [ ] Login into the system
-  - [ ] Browse through the list of items
-  - [ ] Buy items
-  - [ ] Generate an invoice of items
+## ✨ Functionality
 
-- **Administrator Features**
-  - [ ] Create a product
-  - [ ] Modify a product
-  - [ ] View products
-  - [ ] Delete a product
+### Customer Features
+- [ ] **Register a new account** - Sign up to start shopping.
+- [ ] **Login into the system** - Secure access to your profile.
+- [ ] **Browse through the list of items** - Explore available products.
+- [ ] **Buy items** - Add products to your cart and purchase.
+- [ ] **Generate an invoice of items** - View your purchase summary.
+
+### Administrator Features
+- [ ] **Create a product** - Add new items with details and images.
+- [ ] **Modify a product** - Update existing product information.
+- [ ] **View products** - Monitor the product catalog.
+- [ ] **Delete a product** - Remove items from the store.
 
 ## 🚀 Technologies and Tools
 
-<div style="text-align: center">
+<div>
 
-[![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
-[![Android Studio](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev)
-[![SQLite](https://skillicons.dev/icons?i=sqlite)](https://skillicons.dev)
-[![Figma](https://skillicons.dev/icons?i=figma)](https://skillicons.dev)
-[![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://skillicons.dev)
+[![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)](https://www.java.com/)
+[![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)](https://developer.android.com/studio)
+[![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/)
+[![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 
 </div>
 
-## Overview
-This is an Android application built in Java using Android Studio, designed as an ecommerce platform for buying and selling products. It’s a collaborative project hosted on GitHub for team development.
+## 📋 Overview
 
-## Prerequisites
-To set up and run this project, you’ll need:
+This Android application, built in **Java** using **Android Studio**, serves as an e-commerce platform for buying and selling products. It’s a team effort hosted on GitHub, combining robust functionality with a clean, user-friendly design.
 
-- Android Studio: Latest stable version (e.g., Chipmunk or higher)
-- Gradle: 8.7 (managed via Gradle wrapper)
-- Android SDK:
-    - SDK Platform 34 (or 35 if available)
-    - Build Tools 34.0.0 (or 35.0.0)
-    - Minimum SDK: 24
-    - Target SDK: 34 (or 35)
-- Java: JDK 17
+## 🛠️ Prerequisites
 
-## Setup Instructions
-1. Clone the repository: https://github.com/songKimvisal/E-commerce_App2.git
-2. Open the project in Android Studio.
-3. Sync the project with Gradle (File > Sync Project with Gradle Files).
-4. Install required SDK components via the SDK Manager if prompted.
-5. Build the project (Build > Make Project) and run it (Run > Run 'app').
+To set up and run this project, ensure you have:
 
-## Project Structure
-- app/: Contains the main Android module with source code (java/), resources (res/), and tests.
-- gradle/: Gradle wrapper files for consistent builds.
-- build.gradle.kts: Project and app-level Gradle scripts.
-- .gitignore: Ignores temporary and system-specific files.
-- .gitattributes: Ensures consistent line endings for cross-platform collaboration.
+- **Android Studio**: Latest stable version (e.g., Chipmunk or higher)
+- **Gradle**: 8.7 (managed via Gradle wrapper)
+- **Android SDK**:
+  - SDK Platform 34 (or 35 if available)
+  - Build Tools 34.0.0 (or 35.0.0)
+  - Minimum SDK: 24
+  - Target SDK: 34 (or 35)
+- **Java**: JDK 17
 
-## Contributing
-- Use branches for new features (e.g., git checkout -b feature-name).
-- Submit pull requests on GitHub for code review before merging into main.
-- Follow the commit message format: “Brief description of changes.”
+## ⚙️ Setup Instructions
 
-## License
-[Specify your license here, e.g., MIT, Apache 2.0, or none if open-source or private.]
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/songKimvisal/E-commerce_App2.git
+   ```
+2. **Open in Android Studio**:
+   - Launch Android Studio and select "Open an existing project".
+   - Choose the cloned folder and click "OK".
+3. **Sync Gradle**:
+   - Go to ```File > Sync Project with Gradle Files``` to download dependencies.
+4. **Install SDK Components**:
+   - Use the SDK Manager if prompted to install missing tools.
+5. **Build and Run**:
+   - Build the project (```Build > Make Project```).
+   - Run it on an emulator or device (```Run > Run 'app'```).
 
-## Contact
-For questions or issues, contact [your-name] at [your-email] or open an issue on GitHub.
+## 📂 Project Structure
+
+  - ```app/```: Main Android module with source code (```java/```), resources (```res/```), and tests.
+  - ```gradle/```: Gradle wrapper files for consistent builds.
+  - ```build.gradle.kts```: Project and app-level Gradle configuration scripts.
+  - ```.gitignore```: Excludes temporary and system-specific files.
+  - ```.gitattributes```: Ensures consistent line endings across platforms.
+
+📜 License
+[Specify your license here, e.g., MIT, Apache 2.0, or leave blank if undecided.]
+
