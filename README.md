@@ -72,6 +72,7 @@ To set up and run this project, ensure you have:
   - ```.gitignore```: Excludes temporary and system-specific files.
   - ```.gitattributes```: Ensures consistent line endings across platforms.
 
-📜 License
+## 📜 License
+
 [Specify your license here, e.g., MIT, Apache 2.0, or leave blank if undecided.]
 
