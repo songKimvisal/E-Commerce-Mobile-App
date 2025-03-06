@@ -17,12 +17,12 @@
 
 ## 🚀 Technologies and Tools
 
-- ![Java](https://skillicons.dev/icons?i=java) **Java**
-- ![Android Studio](https://skillicons.dev/icons?i=androidstudio) **Android Studio IDE**
-- ![SQLite](https://skillicons.dev/icons?i=sqlite) **SQLite Database**
-- ![Figma](https://skillicons.dev/icons?i=figma) **Figma**
-- ![Git](https://skillicons.dev/icons?i=git) **Git**
-- ![GitHub](https://skillicons.dev/icons?i=github) **GitHub**
+- [![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)](https://www.java.com/)
+- [![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=flat-square&logo=android-studio)](https://developer.android.com/studio)
+- [![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite)](https://www.sqlite.org/)
+- [![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma)](https://www.figma.com/)
+- [![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git)](https://git-scm.com/)
+- [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/)
 
 
 ## Overview
