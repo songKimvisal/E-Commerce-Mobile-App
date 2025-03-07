@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Get reference to the RecyclerView
-        RecyclerView horizontalRecyclerView = findViewById(R.id.horizontalRecyclerView);
+//        RecyclerView horizontalRecyclerView = findViewById(R.id.horizontalRecyclerView);
 
         // Create a list of image resource IDs
         List<Integer> imageList = new ArrayList<>();
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         HorizontalImageAdapter adapter = new HorizontalImageAdapter(imageList);
 
         // Set the adapter and layout manager for the RecyclerView
-        horizontalRecyclerView.setAdapter(adapter);
-        horizontalRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        horizontalRecyclerView.setAdapter(adapter);
+//        horizontalRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
     }
 }
