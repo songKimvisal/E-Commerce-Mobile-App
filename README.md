@@ -53,7 +53,7 @@ To set up and run this project, ensure you have:
 - **Android SDK**:
   - SDK Platform 34 (or 35 if available)
   - Build Tools 34.0.0 (or 35.0.0)
-  - Minimum SDK: 24
+  - Minimum SDK: 28
   - Target SDK: 34 (or 35)
 - **Java**: JDK 17
 
