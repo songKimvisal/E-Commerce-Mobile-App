@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 public class HomeFragment extends Fragment {
@@ -17,22 +17,16 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
+        // Sample data
+        List<Product> productList = new ArrayList<>();
+        productList.add(new Product("-20%", R.drawable.image1, 5.0f, 10, "Dorothy Perkins Evening Dress", "£25 £125"));
+        productList.add(new Product("-15%", R.drawable.image2, 5.0f, 10, "Stylish Sporty Dress", "£22 £19"));
+        productList.add(new Product("-2%", R.drawable.image1, 5.0f, 10, "Dorothy Perkins Sporty", "£145"));
+
         // Set up the RecyclerView
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
-
-        // List of colors (mimicking your current ImageViews)
-        List<Integer> colors = Arrays.asList(
-                android.R.color.holo_blue_light,  // item1
-                android.R.color.holo_green_light, // item2
-                android.R.color.holo_red_light,   // item3
-                android.R.color.holo_purple,      // item4
-                android.R.color.holo_red_light    // item5
-        );
-
-        // Set the adapter
-        ImageAdapter adapter = new ImageAdapter(colors);
-        recyclerView.setAdapter(adapter);
+        recyclerView.setAdapter(new ProductAdapter(productList));
 
         return view;
     }
