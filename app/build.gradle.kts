@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(libs.recyclerview.v132)
+    implementation(libs.cardview)
     implementation(libs.recyclerview)
     implementation (libs.material.v1110)
     implementation(libs.appcompat)

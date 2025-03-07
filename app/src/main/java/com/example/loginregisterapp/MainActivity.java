@@ -2,9 +2,16 @@ package com.example.loginregisterapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.os.Bundle;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.view.MenuItem;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             profileFragment = getSupportFragmentManager().findFragmentByTag("ProfileFragment");
 
             // Determine the active fragment (e.g., assume Home if not restored properly)
-            String activeTag = getSupportFragmentManager().findFragmentById(R.id.fragment_container).getTag();
+            String activeTag = Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.fragment_container)).getTag();
             activeFragment = getSupportFragmentManager().findFragmentByTag(activeTag != null ? activeTag : "HomeFragment");
         }
 
@@ -89,5 +96,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         bottomNavigationView.setSelectedItemId(R.id.nav_home);
+
+
     }
 }
