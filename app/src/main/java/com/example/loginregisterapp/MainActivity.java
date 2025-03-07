@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             profileFragment = getSupportFragmentManager().findFragmentByTag("ProfileFragment");
 
             // Determine the active fragment (e.g., assume Home if not restored properly)
-            String activeTag = getSupportFragmentManager().findFragmentById(R.id.fragment_container).getTag();
+            String activeTag = Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.fragment_container)).getTag();
             activeFragment = getSupportFragmentManager().findFragmentByTag(activeTag != null ? activeTag : "HomeFragment");
         }
 

@@ -19,9 +19,9 @@ public class HomeFragment extends Fragment {
 
         // Sample data
         List<Product> productList = new ArrayList<>();
-        productList.add(new Product("-20%", R.drawable.image1, 5.0f, 10, "Dorothy Perkins Evening Dress", "£25 £125"));
-        productList.add(new Product("-15%", R.drawable.image2, 5.0f, 10, "Stylish Sporty Dress", "£22 £19"));
-        productList.add(new Product("-2%", R.drawable.image1, 5.0f, 10, "Dorothy Perkins Sporty", "£145"));
+        productList.add(new Product("-20%", android.R.drawable.ic_menu_gallery, 5.0f, 10, "Dorothy Perkins Evening Dress", "£25 £125"));
+        productList.add(new Product("-15%", android.R.drawable.ic_menu_gallery, 5.0f, 10, "Stylish Sporty Dress", "£22 £19"));
+        productList.add(new Product("-2%", android.R.drawable.ic_menu_gallery, 5.0f, 10, "Dorothy Perkins Sporty", "£145"));
 
         // Set up the RecyclerView
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
