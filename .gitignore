@@ -16,11 +16,19 @@ local.properties
 # Build outputs
 *.apk
 *.aab
+*.so
+*.jar
+*.aar
 
 # Logs
 *.log
+*.hprof
 
-# Older Android build directories (optional, if applicable)
-bin/
-gen/
-obj/
+# Test artifacts
+*.test
+test-results/
+
+# Older Android build directories (optional, remove if not applicable)
+# bin/
+# gen/
+# obj/
