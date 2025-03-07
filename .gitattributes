@@ -1,0 +1,41 @@
+# Normalize line endings for all text files to LF
+* text=auto eol=lf
+
+# Explicitly handle specific text file types (if needed)
+*.svg text eol=lf  # Treat SVGs as text for diffing
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+
+# Binary files (no line-ending conversion, no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.exe binary
+*.dll binary
+*.dat binary
+*.db binary
+*.mp4 binary
+*.mp3 binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.class binary
+*.o binary
+*.a binary
+*.so binary
+
+# IDE and editor-specific files
+.idea/* binary
+.vscode/* binary
+*.suo binary
+*.user binary
+*.sln binary
+*.project text eol=lf
+*.classpath text eol=lf
