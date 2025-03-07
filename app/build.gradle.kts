@@ -33,13 +33,14 @@ android {
 }
 
 dependencies {
-    implementation(libs.recyclerview.v132)
-    implementation(libs.cardview)
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+    implementation ("androidx.cardview:cardview:1.0.0")
     implementation(libs.recyclerview)
     implementation (libs.material.v1110)
     implementation(libs.appcompat)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
