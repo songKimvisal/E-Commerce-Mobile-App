@@ -1,3 +1,4 @@
+  <div align="center">   
     
     ██╗   ██╗██╗██████╗ ███████╗
     ██║   ██║██║██╔══██╗██╔════╝
@@ -5,7 +6,8 @@
     ╚██╗ ██╔╝██║██╔══██╗██╔══╝  
      ╚████╔╝ ██║██████╔╝███████╗
       ╚═══╝  ╚═╝╚═════╝ ╚══════╝
-
+  </div>
+  
 # 🛒 Ecommerce Mobile App Project
 
 An Android-based e-commerce platform built with Java, designed for seamless buying and selling experiences. This collaborative project is hosted on GitHub and leverages modern tools for development and design.
