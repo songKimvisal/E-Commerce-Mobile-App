@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.loginregisterapp"
-        minSdk = 24
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -33,10 +33,9 @@ android {
 }
 
 dependencies {
-    implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation ("com.google.android.material:material:1.11.0")
+    implementation(libs.recyclerview)
+    implementation (libs.material.v1110)
     implementation(libs.appcompat)
-    implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
