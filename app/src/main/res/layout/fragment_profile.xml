@@ -34,11 +34,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/log_outBtn"
+        android:id="@+id/switchAccountButton"
         android:layout_width="172dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
-        android:text="Log out"
+        android:text="Switch Account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileRecyclerView" />
