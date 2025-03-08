@@ -32,5 +32,9 @@ public class Option extends AppCompatActivity {
         startActivity(intent);
 
     }
-
+    public void adnimOnclick(View view)
+    {
+        Intent intent = new Intent(this, AdminResgisteration.class);
+        startActivity(intent);
+    }
 }
