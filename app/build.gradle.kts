@@ -33,8 +33,10 @@ android {
 }
 
 dependencies {
-    implementation ("androidx.appcompat:appcompat:1.6.1")
-    implementation ("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.recyclerview)
     implementation (libs.material.v1110)
     implementation(libs.appcompat)

@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class AdminResgisteration extends AppCompatActivity {
+public class AdminRegistration extends AppCompatActivity {
     private final int Admin_code = 1111;
     private Button adminBtn;
     private TextInputEditText adminCodeInput;
@@ -44,7 +44,7 @@ public class AdminResgisteration extends AppCompatActivity {
                 String userInput = adminCodeInput.getText().toString();
 
                 if (userInput.equals(String.valueOf(Admin_code))) {
-                    Intent intent = new Intent(AdminResgisteration.this, MainActivity.class); // Replace with your next activity
+                    Intent intent = new Intent(AdminRegistration.this, MainActivity.class); // Replace with your next activity
                     startActivity(intent);
                     finish();
                 } else {
