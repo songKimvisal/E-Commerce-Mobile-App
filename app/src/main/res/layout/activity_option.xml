@@ -50,7 +50,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:srcCompat="@drawable/user24" />
+        tools:srcCompat="@drawable/user" />
 
     <TextView
         android:id="@+id/textView3"
