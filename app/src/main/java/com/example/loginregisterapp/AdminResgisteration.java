@@ -19,7 +19,7 @@ public class AdminResgisteration extends AppCompatActivity {
     private final int Admin_code = 1111;
     private Button adminBtn;
     private TextInputEditText adminCodeInput;
-    private TextView errorMessage; // Added error message TextView
+    private TextView errorMessage;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -30,7 +30,7 @@ public class AdminResgisteration extends AppCompatActivity {
 
         adminBtn = findViewById(R.id.adminBtn);
         adminCodeInput = findViewById(R.id.adminCodeInput);
-        errorMessage = findViewById(R.id.errorMessage); // Initialize error message TextView
+        errorMessage = findViewById(R.id.errorMessage);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -48,7 +48,7 @@ public class AdminResgisteration extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 } else {
-                    errorMessage.setText("Incorrect Admin Code. Please try again."); // Set error message
+                    errorMessage.setText("Incorrect Admin Code. Please try again.");
                     adminCodeInput.getText().clear();
                 }
             }
