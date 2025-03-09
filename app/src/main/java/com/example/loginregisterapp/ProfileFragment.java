@@ -42,12 +42,12 @@ public class ProfileFragment extends Fragment {
         switchAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                clearAccountType(getContext()); // Use getContext() for fragment context
+                clearAccountType(getContext());
 
-                Intent intent = new Intent(getContext(), Option.class); // Use getContext() for fragment context
+                Intent intent = new Intent(getContext(), Option.class);
                 startActivity(intent);
                 if (getActivity() != null) {
-                    getActivity().finish(); // Close the activity hosting the fragment
+                    getActivity().finish();
                 }
             }
         });
